@@ -1234,6 +1234,13 @@ footer p span {
                 Navigation
 ============================================ */
 
+.header-text {
+  position: absolute;
+  top: 38%;
+  padding-left: 30px;
+  color: #000;
+}
+
 .navbar {
   padding: 35px 0 20px 0;
   -webkit-transition: all 300ms linear;

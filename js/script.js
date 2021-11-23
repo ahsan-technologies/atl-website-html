@@ -264,6 +264,9 @@ $(function () {
       $(".navbar-brand img").attr("width", "30");
       $(".navbar-brand img").attr("height", "30");
 
+      // Show logo text
+      $(".header-text").css("display", "block");
+
       // Show back to top button
       $("#back-to-top").fadeIn();
     } else {
@@ -274,6 +277,9 @@ $(function () {
       $(".navbar-brand img").attr("src", "img/logo/logo.png");
       $(".navbar-brand img").attr("width", "40");
       $(".navbar-brand img").attr("height", "40");
+
+      // Show logo text
+      $(".header-text").css("display", "none");
 
       // Hide back to top button
       $("#back-to-top").fadeOut();

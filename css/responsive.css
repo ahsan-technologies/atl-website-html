@@ -98,6 +98,13 @@
 
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* Header logo text */
+  .header-text {
+    display: none !important;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Navigation */
   .site-nav-wrapper {
@@ -193,6 +200,11 @@
 /* Extra Small Devices (Landscape Phones & Portrait Tablets) */
 
 @media (max-width: 767px) {
+  /* Header logo text */
+  .header-text {
+    top: 33%;
+    padding-left: 45px !important;
+  }
   /* Navigaiton */
   .navbar {
     padding: 20px 0;
@@ -439,6 +451,10 @@
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 320px) {
+  /* Header logo text */
+  .header-text {
+    display: none !important;
+  }
   /* Testimonials */
   .testimonial h3 {
     font-size: 12px;
