@@ -13,8 +13,8 @@ $(window).on("load", function () {
 $(function () {
   $("#team-members").owlCarousel({
     items: 2,
-    autoplay: true,
-    smartSpeed: 700,
+    autoplay: 2000,
+    smartSpeed: 1000,
     loop: true,
     autoplayHoverPause: true,
     nav: true,
@@ -133,10 +133,10 @@ $(function () {
 });
 
 /* =========================================
-              Clients
+              Technologies
 ============================================ */
 $(function () {
-  $("#clients-list").owlCarousel({
+  $("#technologies-list").owlCarousel({
     items: 6,
     autoplay: false,
     smartSpeed: 700,
@@ -160,6 +160,39 @@ $(function () {
       // breakpoint from 768 up
       768: {
         items: 6,
+      },
+    },
+  });
+});
+
+/* =========================================
+              Clients
+============================================ */
+$(function () {
+  $("#clients-list").owlCarousel({
+    items: 2,
+    autoplay: false,
+    smartSpeed: 500,
+    loop: true,
+    autoplayHoverPause: true,
+    nav: true,
+    dots: false,
+    navText: [
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>',
+    ],
+    responsive: {
+      // breakpoint from 0 up
+      0: {
+        items: 2,
+      },
+      // breakpoint from 480 up
+      480: {
+        items: 2,
+      },
+      // breakpoint from 768 up
+      768: {
+        items: 2,
       },
     },
   });
