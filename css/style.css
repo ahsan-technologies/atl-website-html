@@ -229,12 +229,20 @@ section {
   padding: 120px 0;
 }
 
+.content-box-lg.no-bottom-padding {
+  padding: 120px 0 0 0;
+}
+
 .content-box-md {
   padding: 100px 0;
 }
 
 .content-box-sm {
   padding: 90px 0;
+}
+
+.content-box-sm.no-bottom-padding {
+  padding: 120px 0 0 0;
 }
 
 /* =========================================
