@@ -91,7 +91,7 @@ section {
   width: auto;
   height: auto;
   z-index: -1;
-  background: url("../video/solo.jpg") no-repeat;
+  background: url("../img/cover.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -1060,14 +1060,16 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .client {
-  padding: 0 10px;
+  padding: 10px;
+  max-height: 150px;
   max-width: 150px;
   margin: 0 auto;
-  line-height: 100px;
+  border: #ececec solid 1px;
 }
 
 .client img {
-  display: inline-block !important;
+  margin: auto;
+  display: block;
 }
 
 /* =========================================
